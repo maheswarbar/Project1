@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="loginpage.css">
+</head>
+<body class="body">
+    <form>
+    <div class="container">
+        <div class="login">
+            <h2>-:LOGIN PAGE:-</h2></div>
+
+        <hr>
+        <br>
+        <div>
+            <label for="username" >Enter Username...</label>
+            <input type="email" class="username" placeholder="Type Username..." id="email">
+            <br>
+            <br>
+            <label for="password">Enter Password...</label>
+            <input type="password" class="password" placeholder="Type Password..." id="password">
+        </div>
+            <hr>
+            <br>
+        <div>
+            <button class="btn" value="login" onclick="auth()"><a href="loginpage1.html">Submit Here</a></button>
+        </div>
+        
+        
+
+    </div>
+</form>
+
+<script>
+    function auth(){
+        var email = document.getElementById("username").value;
+        var password = document.getElementById("password").value;
+        if(username== "gopiranjan45@gmail.com" && password=="123456"){
+            window.location.assign("loginpage1.html");
+            alert("Login Succesfully");
+        }
+        else{
+            alert("Invalid user or password");
+            return;
+        }
+    }
+</script>
+<!-- <script src="loginpage.js" defer></script> -->
+</body>
+</html>

@@ -1,0 +1,27 @@
+*{
+    background-color: wheat;
+    font-family: Georgia;
+}
+
+.poem{
+    color: rgb(233, 15, 15);
+    text-align: center;
+    line-height: 30px;
+}
+
+#heading{
+    text-align: center;
+}
+#button{
+    
+    color: blueviolet;
+    margin-left: 50%;
+}
+a{
+    color: green;
+    text-decoration: none;
+}
+.o{
+    text-decoration: underline;
+}
+    

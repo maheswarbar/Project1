@@ -1,0 +1,51 @@
+.mainpage{
+    height: 100vh;
+    width: 100%;
+    border: 5px solid black;
+    border-radius: 10px;
+    background-image: url(image.jpg);
+    background-size: cover;
+}
+
+
+ul,li{
+    display:flex;
+    position: relative;
+    margin: auto;
+    font-size: 20px;
+    
+    
+}
+
+.list{
+    height: 100px;
+    width: 100%;
+    border: 3px solid black;
+    background-color: rgb(231, 148, 52);
+    
+}
+
+.dashboard{
+    height: 30px;
+    width: 100%;
+    border: 2px solid black;
+    font-size: 30px;
+    color: rgb(234, 242, 13);
+}
+
+.wellcome{
+    font-size: 30px;
+    position: relative;
+    margin-left: 40%;
+    margin-top: 15%;
+    color: white;
+}
+ul,li,a{
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+}
+button{
+    background-color: black;
+    height: 20px;
+}
